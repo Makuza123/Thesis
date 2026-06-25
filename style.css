@@ -1,0 +1,92 @@
+body{
+    background:#f5f7fb;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.wrapper{
+    display:flex;
+}
+
+#sidebar{
+    min-width:260px;
+    max-width:260px;
+    min-height:100vh;
+    background:#0f172a;
+}
+
+.sidebar-header{
+    padding:25px;
+    text-align:center;
+    color:white;
+    border-bottom:1px solid #334155;
+}
+
+.sidebar-header p{
+    font-size:13px;
+    color:#cbd5e1;
+}
+
+#sidebar ul{
+    padding:0;
+}
+
+#sidebar ul li{
+    list-style:none;
+}
+
+#sidebar ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    transition:.3s;
+}
+
+#sidebar ul li a:hover{
+    background:#1e293b;
+}
+
+#sidebar i{
+    margin-right:10px;
+}
+
+#content{
+    width:100%;
+}
+
+.card-stat{
+    border:none;
+    border-radius:15px;
+    padding:20px;
+}
+
+.card-stat h6{
+    color:#64748b;
+}
+
+.card-stat h2{
+    font-weight:bold;
+}
+
+.chart-card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,.05);
+}
+
+.table-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.risk{
+    color:red;
+    font-weight:bold;
+}
+
+.safe{
+    color:green;
+    font-weight:bold;
+}
