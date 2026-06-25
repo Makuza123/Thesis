@@ -1,92 +1,153 @@
-body{
-    background:#f5f7fb;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
 }
 
 .wrapper{
     display:flex;
 }
 
-#sidebar{
-    min-width:260px;
-    max-width:260px;
-    min-height:100vh;
+.sidebar{
+    width:250px;
+    height:100vh;
     background:#0f172a;
+    position:fixed;
+    left:0;
+    top:0;
 }
 
-.sidebar-header{
-    padding:25px;
-    text-align:center;
+.logo{
     color:white;
+    text-align:center;
+    padding:20px;
     border-bottom:1px solid #334155;
 }
 
-.sidebar-header p{
-    font-size:13px;
-    color:#cbd5e1;
-}
-
-#sidebar ul{
-    padding:0;
-}
-
-#sidebar ul li{
+.sidebar ul{
     list-style:none;
 }
 
-#sidebar ul li a{
+.sidebar ul li a{
     display:block;
     color:white;
     text-decoration:none;
-    padding:15px 25px;
-    transition:.3s;
+    padding:15px 20px;
 }
 
-#sidebar ul li a:hover{
+.sidebar ul li a:hover{
     background:#1e293b;
 }
 
-#sidebar i{
-    margin-right:10px;
-}
-
-#content{
+.main{
+    margin-left:250px;
     width:100%;
+    padding:25px;
 }
 
-.card-stat{
-    border:none;
-    border-radius:15px;
-    padding:20px;
-}
-
-.card-stat h6{
-    color:#64748b;
-}
-
-.card-stat h2{
-    font-weight:bold;
-}
-
-.chart-card{
+.navbar{
     background:white;
-    border-radius:15px;
-    padding:20px;
+    padding:15px 20px;
+    border-radius:10px;
+    margin-bottom:20px;
     box-shadow:0 0 10px rgba(0,0,0,.05);
 }
 
-.table-card{
-    background:white;
-    padding:20px;
-    border-radius:15px;
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
-.risk{
+.card{
+    background:white;
+    flex:1;
+    min-width:220px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.05);
+}
+
+.card h2{
+    margin-top:10px;
+}
+
+.chart-box{
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.05);
+}
+
+table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#2563eb;
+    color:white;
+}
+
+table th,
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:5px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.form-box{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.05);
+}
+
+.success{
+    color:green;
+    font-weight:bold;
+}
+
+.danger{
     color:red;
     font-weight:bold;
 }
 
-.safe{
-    color:green;
-    font-weight:bold;
+.login-container{
+    width:400px;
+    background:white;
+    margin:100px auto;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
 }
