@@ -4,15 +4,12 @@
     box-sizing:border-box;
     font-family:'Segoe UI',sans-serif;
 }
-
 body{
     background:#f4f7fc;
 }
-
 .wrapper{
     display:flex;
 }
-
 .sidebar{
     width:250px;
     height:100vh;
@@ -21,35 +18,29 @@ body{
     left:0;
     top:0;
 }
-
 .logo{
     color:white;
     text-align:center;
     padding:20px;
     border-bottom:1px solid #334155;
 }
-
 .sidebar ul{
     list-style:none;
 }
-
 .sidebar ul li a{
     display:block;
     color:white;
     text-decoration:none;
     padding:15px 20px;
 }
-
 .sidebar ul li a:hover{
     background:#1e293b;
 }
-
 .main{
     margin-left:250px;
     width:100%;
     padding:25px;
 }
-
 .navbar{
     background:white;
     padding:15px 20px;
@@ -57,13 +48,11 @@ body{
     margin-bottom:20px;
     box-shadow:0 0 10px rgba(0,0,0,.05);
 }
-
 .cards{
     display:flex;
     gap:20px;
     flex-wrap:wrap;
 }
-
 .card{
     background:white;
     flex:1;
@@ -72,11 +61,9 @@ body{
     border-radius:12px;
     box-shadow:0 0 10px rgba(0,0,0,.05);
 }
-
 .card h2{
     margin-top:10px;
 }
-
 .chart-box{
     background:white;
     margin-top:20px;
@@ -84,25 +71,21 @@ body{
     border-radius:12px;
     box-shadow:0 0 10px rgba(0,0,0,.05);
 }
-
 table{
     width:100%;
     background:white;
     border-collapse:collapse;
     margin-top:20px;
 }
-
 table th{
     background:#2563eb;
     color:white;
 }
-
 table th,
 table td{
     padding:12px;
     border:1px solid #ddd;
 }
-
 input,
 select{
     width:100%;
@@ -112,7 +95,6 @@ select{
     border:1px solid #ddd;
     border-radius:5px;
 }
-
 button{
     background:#2563eb;
     color:white;
@@ -122,30 +104,20 @@ button{
     cursor:pointer;
 }
 
-button:hover{
-    background:#2563eb;
-    width:180px; 
-    height:40px; 
-    font-size:18px;
-}
-
 .form-box{
     background:white;
     padding:25px;
     border-radius:12px;
     box-shadow:0 0 10px rgba(0,0,0,.05);
 }
-
 .success{
     color:green;
     font-weight:bold;
 }
-
 .danger{
     color:red;
     font-weight:bold;
 }
-
 .login-container{
     width:400px;
     background:white;
