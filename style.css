@@ -123,7 +123,7 @@ button{
 }
 
 button:hover{
-    background:#660000;
+    background:maroon;
     width:200px; 
     height:40px; 
     font-size:18px;
