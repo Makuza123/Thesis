@@ -103,7 +103,12 @@ button{
     border-radius:5px;
     cursor:pointer;
 }
-
+button:hover{
+    background:#2563eb;
+    width:180px; 
+    height:40px; 
+    font-size:18px;
+}
 .form-box{
     background:white;
     padding:25px;
